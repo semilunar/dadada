@@ -1,0 +1,53 @@
+@media (min-width: 1441px) {
+
+   div.main {
+     margin-top: 190px;
+   }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+  span {
+    font-size: 55px;
+  }
+
+  div.main {
+    width: 1023px;
+    margin-top: 100px;
+  }
+
+  div.container-video {
+    height: 350px;
+    width: 700px;
+    margin-left: calc(100vw/2.35);
+    margin-top: 400px;
+  }
+
+  video {
+    transition: .3s all ease;
+    height: 350px;
+    width: 700px;
+  }
+
+  .videoText {
+    font-size: 30px;
+  }
+
+  div.container-poetry {
+    height: 350px;
+    width: 700px;
+    margin-left: calc(100vw/2.35);
+    margin-top: 700px;
+
+  }
+
+  div.poetry {
+    height: 350px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  }

@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Lazurski';
+  src:
+       url('../fonts/Lazurski.ttf') format('ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+body {
+  font-family: 'Lazurski', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCFCFC;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection{
+    background-color: #000;
+    color: #aaa;
+}
+
+::selection{
+    background-color: #FFBF66;
+    color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 500px;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 33px;
+  margin-bottom: 40px;
+}
+
+.navButton {
+  font-size: 23px;
+  position: fixed;
+  top: 300px;
+  left: 150px;
+  background-image: url(../images/line.png);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.prev {
+  width: 70px;
+  height: 70px;
+  background-image: url(../images/prev.png);
+  background-size: cover;
+  position: fixed;
+  top: 240px;
+  left: 150px;
+  opacity: 0.1;
+  cursor: pointer;
+  display: none;
+}
+
+.next {
+  width: 70px;
+  height: 70px;
+  background-image: url(../images/next.png);
+  background-size: cover;
+  position: fixed;
+  top: 320px;
+  left: 150px;
+  opacity: 0.1;
+  cursor: pointer;
+  display: none;
+}
+
+.contacts {
+  width: 70px;
+  height: 114px;
+  position: fixed;
+  top: 40px;
+  margin-left: 1330px;
+  background-image: url(../images/contact.png);
+  background-size: cover;
+  filter: grayscale();
+}
+
+.contacts:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.poems {
+  width: 340px;
+  margin: auto;
+  margin-top: 140px;
+}
+
+
+/* .screen {
+  height: 100vh;
+  display: flex;
+}
+
+.slider {
+  width: 870px;
+  height: 680px;
+  margin: auto;
+  background: silver;
+}
+
+.slider div {
+  height: 100%;
+}
+ */
+
+.button {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: auto;
+  transition: all .3s ease;
+}
+
+.button.throwable {
+  background-color: red;
+}
+
+.pictures {
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+ .pictures div {
+   cursor: pointer;
+ }
+
+.i1  {
+  background-image: url(../images/blue.png);
+  height: 46.5px;
+  width: 44.5px;
+  background-size: cover;
+}
+
+.i2  {
+  background-image: url(../images/box.png);
+  height: 205px;
+  width: 74px;
+  background-size: cover;
+}
+
+.i3  {
+  background-image: url(../images/green.png);
+  height: 124px;
+  width: 103px;
+  background-size: cover;
+}
+
+.i4  {
+  background-image: url(../images/hand.png);
+  height: 30px;
+  width: 45px;
+  background-size: cover;
+}
+
+.i5  {
+  background-image: url(../images/letter.png);
+  height: 34px;
+  width: 28px;
+  background-size: cover;
+}
+
+.i6  {
+  background-image: url(../images/orange.png);
+  height: 75px;
+  width: 33px;
+  background-size: cover;
+}
+
+.i7 {
+  position: relative;
+  left: 50px;
+  background-image: url(../images/phone.png);
+  height: 242px;
+  width: 131px;
+  background-size: cover;
+  cursor: grabbing;
+  transition: all 1s ease;
+
+}
+
+.i7:hover {
+  filter: invert();
+}
+
+.i8  {
+  background-image: url(../images/white.png);
+  height: 45px;
+  width: 76px;
+  background-size: cover;
+}
+
+.i9  {
+  background-image: url(../images/car.png);
+  height: 55px;
+  width: 124px;
+  background-size: cover;
+}
+
+.display {
+  display: inherit;
+}
