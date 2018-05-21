@@ -1,22 +1,21 @@
 $(document).ready(function(){
-  var $draggable = $('.draggable').draggabilly();
 
+  // var $draggable = $('.draggable').draggabilly();
 
   $('.ja').on('click', function() {
     $('.ja').hide()
     $('.t').hide()
+    $('.i').hide()
     $('.e').html('Е ');
-    });
+  });
 
+  $('.b').on('hover', function() {
+    $(this).html('B');
+  });
 
-    $('.b').on('hover', function() {
-      $(this).html('B');
-      });
-
-    $('.main').on('hover', function() {
-      $(this).toggleClass('gone');
-      });
-
+  $('.other').on('click', function() {
+    $('.post').toggleClass('gone');
+  });
 
 
 });

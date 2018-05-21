@@ -4,13 +4,13 @@
        url('../fonts/Lazurski.ttf') format('ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+@import url('https://fonts.googleapis.com/css?family=Forum');
 
 body {
-  font-family: 'Lazurski', serif;
+  font-family: 'Forum', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FCFCFC;
+  background-color: #FBFEFB;
 }
 
 * {
@@ -23,8 +23,8 @@ body {
 }
 
 ::selection{
-    background-color: #FFBF66;
-    color: #000;
+  background-color: #000;
+  color: #aaa;
 }
 
 a {
@@ -32,28 +32,69 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-  margin-bottom: 500px;
+.circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 380px;
+  text-align: center;
+  line-height: 300px;
 }
 
-p:last-child {
+.home {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  transition: .3s all ease
+}
+
+.home:hover {
+  color: white;
+  background-color: #EF8354;
+  cursor: pointer;
+  border: 2px solid #EF8354;
+}
+
+article {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 420px;
+  transition: 1s all ease;
+}
+
+article:last-child {
   margin-bottom: 0px;
 }
+
 
 h2 {
   font-size: 33px;
   margin-bottom: 40px;
 }
 
-.navButton {
+.other {
   font-size: 23px;
   position: fixed;
-  top: 300px;
-  left: 150px;
+  top: 400px;
+  left: 350px;
   background-image: url(../images/line.png);
   background-size: cover;
   cursor: pointer;
+  opacity: 1
+}
+
+.other:hover {
+  opacity: 0.3;
 }
 
 .prev {
@@ -64,9 +105,7 @@ h2 {
   position: fixed;
   top: 240px;
   left: 150px;
-  opacity: 0.1;
-  cursor: pointer;
-  display: none;
+  opacity: 0;
 }
 
 .next {
@@ -77,63 +116,7 @@ h2 {
   position: fixed;
   top: 320px;
   left: 150px;
-  opacity: 0.1;
-  cursor: pointer;
-  display: none;
-}
-
-.contacts {
-  width: 70px;
-  height: 114px;
-  position: fixed;
-  top: 40px;
-  margin-left: 1330px;
-  background-image: url(../images/contact.png);
-  background-size: cover;
-  filter: grayscale();
-}
-
-.contacts:hover {
-  filter: none;
-  cursor: pointer;
-}
-
-.poems {
-  width: 340px;
-  margin: auto;
-  margin-top: 140px;
-}
-
-
-/* .screen {
-  height: 100vh;
-  display: flex;
-}
-
-.slider {
-  width: 870px;
-  height: 680px;
-  margin: auto;
-  background: silver;
-}
-
-.slider div {
-  height: 100%;
-}
- */
-
-.button {
-  display: block;
-  width: 200px;
-  height: 200px;
-  background-color: black;
-  border-radius: 50%;
-  margin: auto;
-  transition: all .3s ease;
-}
-
-.button.throwable {
-  background-color: red;
+  opacity: 0;
 }
 
 .pictures {
@@ -219,4 +202,8 @@ h2 {
 
 .display {
   display: inherit;
+}
+
+.gone {
+  transform: translate3d(0, -140%, 0);
 }

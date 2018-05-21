@@ -36,6 +36,17 @@ a {
     color: white;
 }
 
+section.stuff {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3333333;
+  position: fixed;
+}
+
 span {
   cursor: pointer;
   font-family: 'Lack Line';
@@ -72,10 +83,9 @@ div.big::after:hover, div.big::before:hover {
 div.container-video {
   height: 200px;
   width: 400px;
-  position: fixed;
-  margin-top: 225px;
-  margin-left: 38px;
   cursor: pointer;
+  margin-left: -80px;
+  margin-top: -220px;
 }
 
 video:hover {
@@ -89,12 +99,10 @@ video {
 }
 
 .videoText {
-  position: absolute;
   font-family: 'Forum', cursive;
   font-size: 40px;
   text-transform: uppercase;
   color: white;
-  position: absolute;
   top: 45%;
   left: 50%;
   transform: translateY(-50%);
@@ -108,11 +116,10 @@ video {
 div.container-poetry {
   height: 200px;
   width: 400px;
-  position: fixed;
-  margin-top: 225px;
-  margin-left: 1000px;
   cursor: pointer;
   transition: .3s all ease;
+  margin-right: -80px;
+  margin-top: -220px;
 }
 
 div.poetry {
@@ -125,12 +132,10 @@ div.poetry {
 
 .poetryText {
   z-index: 999;
-  position: absolute;
   font-family: 'Forum', cursive;
   font-size: 40px;
   text-transform: uppercase;
   color: blue;
-  position: absolute;
   top: 45%;
   left: 50%;
   transform: translateY(-50%);
@@ -139,4 +144,12 @@ div.poetry {
 
 div.container-poetry:hover {
   filter: opacity(30%);
+}
+
+.draggable {
+  transition: all 1s ease;
+}
+
+span.gone {
+  transform: translate3d(0, -100%, 0);
 }
