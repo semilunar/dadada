@@ -109,13 +109,11 @@ a {
   opacity: 1
 }
 
-
-.nothing:hover {
+.other:hover {
   opacity: 0.3;
 }
 
-
-.other:hover {
+.nothing:hover {
   opacity: 0.3;
 }
 
@@ -220,12 +218,4 @@ a {
   height: 55px;
   width: 124px;
   background-size: cover;
-}
-
-.display {
-  display: inherit;
-}
-
-.gone {
-  transform: translate3d(0, -140%, 0);
 }

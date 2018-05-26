@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
   var $draggable = $('.draggable').draggabilly();
 
   $('.ja').on('click', function() {
@@ -11,16 +10,9 @@ $(document).ready(function(){
     $('.me').show();
   });
 
-  $('.b').on('hover', function() {
-    $(this).html('B');
-  });
-
-  $('.nothing').on('click', function() {
-    $(".pictures").hide();
-    $(".article").hide();
-    document.body.style.color = '#000';
-  });
-
+  // $('.b').on('hover', function() {
+  //   $(this).html('B');
+  // });
 
   $(".pictures > div").throwable({
                       containment:[0,0,1400,780],
@@ -37,9 +29,5 @@ $(document).ready(function(){
                       areaDetection:[[0,0,300,300]],
                       collisionDetection: true
                   });
-
-
-
-
 
 });
