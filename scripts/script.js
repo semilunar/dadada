@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
   // var $draggable = $('.draggable').draggabilly();
 
   $('.ja').on('click', function() {
@@ -7,15 +8,20 @@ $(document).ready(function(){
     $('.t').hide()
     $('.i').hide()
     $('.e').html('Е ');
+    $('.me').show();
   });
 
   $('.b').on('hover', function() {
     $(this).html('B');
   });
 
-  $('.other').on('click', function() {
-    $('.post').toggleClass('gone');
+  $('.nothing').on('click', function() {
+    $(".pictures").hide();
+    $(".article").hide();
+    document.body.style.color = '#000';
   });
+
+
 
 
 });
