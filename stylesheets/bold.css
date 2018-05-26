@@ -60,10 +60,6 @@ div.main {
 div.big {
   margin-top: 85px;
 }
-/*
-div.big::after:hover, div.big::before:hover {
-  content: "click me";
-} */
 
 .draggable {
   cursor: grab;
@@ -111,7 +107,6 @@ div.container-poetry {
   position: fixed;
   margin-top: 225px;
   margin-left: 1000px;
-  cursor: pointer;
   transition: .3s all ease;
 }
 
@@ -135,6 +130,7 @@ div.poetry {
   left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
+  cursor: pointer;
 }
 
 div.container-poetry:hover {

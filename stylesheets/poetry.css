@@ -45,6 +45,7 @@ a {
 }
 
 .home {
+  z-index: 9999;
   border: 2px solid black;
   border-radius: 50%;
   width: 60px;
@@ -89,6 +90,7 @@ a {
 }
 
 .other {
+  z-index: 9999;
   font-size: 23px;
   position: fixed;
   top: 400px;
@@ -100,6 +102,7 @@ a {
 }
 
 .nothing {
+  z-index: 9999;
   font-size: 23px;
   position: fixed;
   top: 450px;
@@ -117,6 +120,7 @@ a {
 }
 
 .prev {
+  z-index: 9999;
   width: 70px;
   height: 70px;
   background-image: url(../images/prev.png);
@@ -128,6 +132,7 @@ a {
 }
 
 .next {
+  z-index: 9999;
   width: 70px;
   height: 70px;
   background-image: url(../images/next.png);
@@ -198,7 +203,6 @@ a {
   background-size: cover;
   cursor: grabbing;
   transition: all 1s ease;
-
 }
 
 .i7:hover {
