@@ -97,10 +97,6 @@ video {
   transform: translateX(-50%);
 }
 
-.videoText:hover {
-  color: black;
-}
-
 div.container-poetry {
   height: 200px;
   width: 400px;
@@ -137,18 +133,20 @@ div.container-poetry:hover {
   filter: opacity(30%);
 }
 
-/* .me {
+.clickme {
+  font-size: 13px;
+  color: gray;
   position: absolute;
-  top: 20px;
-  left: 900px;
-  border: 1px solid black;
-  height: 50px;
-  width: 170px;
-  font-size: 18px;
-  line-height: 50px;
-  border-radius: 50%;
-  color: black;
-  text-align: center;
+  top: 176px;
+  left: 918px;
+  cursor: pointer;
+}
+
+.clickme2 {
+  font-size: 13px;
+  color: gray;
+  position: absolute;
+  top: 176px;
+  left: 918px;
   display: none;
-  transition: all .3s ease
-} */
+}

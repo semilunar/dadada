@@ -8,10 +8,17 @@ $(document).ready(function(){
     $('.i').hide()
     $('.e').html('Е ');
     $('.me').show();
+    $('.clickme2').hide();
+    $('.clickme').hide();
   });
 
-  // $('.b').on('hover', function() {
-  //   $(this).html('B');
-  // });
+  $('.b').on('hover', function() {
+    $(this).html('B');
+  });
+
+    $('.clickme').on('click', function() {
+      $('.clickme2').show();
+        $(this).hide();
+    });
 
 });
