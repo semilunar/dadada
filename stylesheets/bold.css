@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Forum');
 
 body {
-  width: 100vw;
+  width: 100%;
   font-family: 'Forum', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

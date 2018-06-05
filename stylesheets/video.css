@@ -31,7 +31,7 @@ a {
     color: #aaa;
 }
 
-h1 {
+h1.idea {
   font-size: 45px;
   text-transform: uppercase;
   margin-top: 150px;
@@ -39,8 +39,7 @@ h1 {
   text-align: center;
 }
 
-p {
-
+p.idea {
   font-family: 'Helvetica';
   line-height: 20px;
   width: 800px;

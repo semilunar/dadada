@@ -6,7 +6,7 @@
 
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+/* @media all and (min-width: 768px) and (max-width: 1023px) {
 
   span {
     font-size: 55px;
@@ -46,8 +46,114 @@
     height: 350px;
     width: 700px;
   }
-}
+} */
 
 @media (max-width: 767px) {
+    /* for main */
+
+/* .stuff {
+  display: flex;
+  flex-direction: column;
+
+} */
+
+
+div.container-poetry {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+div.container-video {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  margin-top: 500px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 40px;
+}
+
+div.main {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+div.big {
+  margin-top: 35px;
+}
+
+.big span {
+  font-size: 16px;
+}
+
+.clickme {
+  display: none
+}
+
+.clickme2 {
+  display: none;
+}
+
+
+    /* for poetry  */
+
+.pictures {
+  display: none;
+}
+
+.circle {
+  display: none;
+}
+
+.nothing {
+  display: none;
+}
+
+.home {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: inherit;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100vw;
+  overflow-y: scroll;
+  margin: 0 auto;
+  font-size: 16px;
+  border: none;
+}
+
+.swiper-container:hover {
+  border: 2px solid #000;
+}
+
+article {
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.swiper-slide:first-child {
+  width: 280px;
+  margin-bottom:  130px;
+}
+
+p.idea {
+  width: 300px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+h1.idea {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
   }
