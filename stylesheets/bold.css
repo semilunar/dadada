@@ -1,13 +1,25 @@
-@font-face {
+/* @font-face {
   font-family: 'Lack Line';
   src:
        url('../fonts/Lack-Line-Regular.otf') format('otf');
-}
+} */
 
 @font-face {
+  font-family: 'Lack Line Regular';
+  src:
+       url('../fonts/lack-line-regular-webfont.woff') format('woff');
+}
+
+/* @font-face {
   font-family: 'Lack';
   src:
        url('../fonts/Lack-Regular.otf') format('otf');
+} */
+
+@font-face {
+  font-family: 'Lack Regular';
+  src:
+       url('../fonts/lack-regular-webfont.woff') format('woff');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Forum');
