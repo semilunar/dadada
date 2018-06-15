@@ -7,10 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=Forum');
 
 body {
-  font-family: 'Forum', cursive;
+  font-family: 'Forum';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FBFEFB;
+  width: 100vw;
 }
 
 * {

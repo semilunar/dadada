@@ -1,13 +1,19 @@
 @font-face {
-  font-family: 'Lack';
+  font-family: 'Lack Line';
   src:
        url('../fonts/Lack-Line-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Lack';
+  src:
+       url('../fonts/Lack-Regular.otf') format('otf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Forum');
 
 body {
-  width: 100%;
+  width: 100vw;
   font-family: 'Forum', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
