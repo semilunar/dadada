@@ -1,12 +1,7 @@
 @font-face {
   font-family: 'Lazurski';
   src:
-       url('../fonts/Lazurski.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Lazurski';
-  src:
+       url('../fonts/Lazurski.ttf') format('ttf'),
        url('../fonts/LazurskiCyrillic.woff') format('woff');
 }
 
