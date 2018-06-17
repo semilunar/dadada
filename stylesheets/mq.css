@@ -11,25 +11,29 @@
 
     /* for main */
 
-/* .stuff {
+.stuff {
   display: flex;
+  align-items: center;
+  align-content: center;
   flex-direction: column;
 
-} */
+}
 
 div.container-poetry {
   height: 200px;
   width: 400px;
   margin: auto;
-  margin-top: 200px;
+  top: 500px;
+  right: 0;
 }
 
 div.container-video {
   height: 200px;
   width: 400px;
   margin: auto;
-  margin-top: 500px;
   cursor: pointer;
+  left: 0;
+  top: 250px;
 }
 
 span {
@@ -112,7 +116,5 @@ p.idea {
 
 h1.idea {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
-
-  }
