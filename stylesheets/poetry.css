@@ -1,8 +1,8 @@
-/* @font-face {
+@font-face {
   font-family: 'Lazurski';
   src:
        url('../fonts/Lazurski.ttf') format('ttf');
-} */
+}
 
 @font-face {
   font-family: 'Lazurski';
@@ -10,7 +10,7 @@
        url('../fonts/LazurskiCyrillic.woff') format('woff');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Forum&subset=cyrillic,cyrillic-ext,latin-ext');
 
 body {
   font-family: 'Forum';
