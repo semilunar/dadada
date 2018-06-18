@@ -33,14 +33,14 @@ a {
 
 span {
   cursor: pointer;
-  font-family: 'Lack Line';
+  font-family: 'lack_lineregular';
   margin: auto;
   font-size: 90px;
   transition: 2s all ease
 }
 
 span:hover {
-  font-family: 'Lack';
+  font-family: 'lackregular';
   color: #F298E9;
   font-size: 55px;
 }
