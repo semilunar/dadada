@@ -25,6 +25,7 @@ div.container-poetry {
   margin: auto;
   top: 500px;
   right: 0;
+  position: absolute;
 }
 
 div.container-video {
@@ -34,6 +35,11 @@ div.container-video {
   cursor: pointer;
   left: 0;
   top: 250px;
+  position: absolute;
+}
+
+video {
+  width: 375px;
 }
 
 span {
